@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Amazingmercy
 - 👀 I’m interested in web development and embedded system
-- 🌱 I’m currently learning front end web development and Java 
+- 🌱 I’m currently learning backend development using Rails
 - 💞️ I’m looking to collaborate on Website projects
 - 📫 You can reach me on whatsapp +234 9081513958
 
