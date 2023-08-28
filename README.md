@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Amazingmercy
 - 👀 I’m interested in web development and embedded system
-- 🌱 I’m currently learning backend development using Rails
-- 💞️ I’m looking to collaborate on Website projects
-- 📫 You can reach me on whatsapp +234 9081513958
+- 🌱 I’m currently learning backend development using Laravel
+- 💞️ I’m looking to collaborate on Web projects
+- 📫 You can reach me on linkedIn https://www.linkedin.com/in/amaefule-mercy-7b456025b
 
 <!---
 Amazingmercy/Amazingmercy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
