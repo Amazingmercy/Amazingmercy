@@ -2,7 +2,7 @@
 - 👀 I’m interested in web development and embedded systems
 - 🌱 I’m currently learning backend development and cloud computing
 - 💞️ I’m looking to collaborate on Web projects
-- 📫 You can reach me on linkedIn https://www.linkedin.com/in/amaefule-mercy-7b456025b
+- 📫 You can reach me on linkedIn https://www.linkedin.com/in/amazing-mercy-1012133b5
 
 <!---
 Amazingmercy/Amazingmercy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
