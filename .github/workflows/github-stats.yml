@@ -1,3 +1,4 @@
+
 name: Update GitHub Stats
 
 on:
@@ -16,22 +17,25 @@ jobs:
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          user: Amazingmercy
-          output_path: profile-stats
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          options: username=Amazingmercy&show_icons=true&theme=transparent&hide_border=true
+          path: profile/stats.svg
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          options: username=Amazingmercy&layout=compact&theme=transparent&hide_border=true&langs_count=8
+          path: profile/top-langs.svg
 
       - name: Commit generated stats
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git clone https://github.com/Amazingmercy/Amazingmercy.git repo
-          mkdir -p repo/profile
-
-          cp profile-stats/stats.svg repo/profile/stats.svg
-          cp profile-stats/top-langs.svg repo/profile/top-langs.svg
-
-          cd repo
           git add profile/
           git diff --cached --quiet || git commit -m "chore: update GitHub stats"
           git push
+```
