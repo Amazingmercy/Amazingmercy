@@ -1,0 +1,37 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "30 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Amazingmercy
+          output_path: profile-stats
+
+      - name: Commit generated stats
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git clone https://github.com/Amazingmercy/Amazingmercy.git repo
+          mkdir -p repo/profile
+
+          cp profile-stats/stats.svg repo/profile/stats.svg
+          cp profile-stats/top-langs.svg repo/profile/top-langs.svg
+
+          cd repo
+          git add profile/
+          git diff --cached --quiet || git commit -m "chore: update GitHub stats"
+          git push
