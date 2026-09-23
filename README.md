@@ -66,8 +66,7 @@ My backend experience includes **Java, Spring Boot, TypeScript, Node.js, and Nes
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Amazingmercy&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amazingmercy&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="180" />
+  <img src="./profile/top-langs.svg" height="180" />
 </p>
 
 ---
@@ -78,15 +77,6 @@ My backend experience includes **Java, Spring Boot, TypeScript, Node.js, and Nes
   <img src="https://streak-stats.demolab.com?user=Amazingmercy&theme=transparent&hide_border=true" />
 </p>
 
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Amazingmercy&theme=flat&no-frame=true&no-bg=true&margin-w=6" />
-</p>
-
----
 
 ## 📈 Contribution Activity
 
