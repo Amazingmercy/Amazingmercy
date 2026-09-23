@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Mercy Amaefule
+# 👋 Hi, I'm Mercy Amaefule (Amazingmercy)
 
 ### Backend Developer | Java Developer
 
