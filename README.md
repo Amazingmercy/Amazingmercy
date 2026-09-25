@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Mercy Amaefule (Amazingmercy)
 
-### Backend Developer | Java Developer
+### Backend Developer
 
 I build backend systems, REST APIs, and database-driven applications with a focus on clean architecture, reliability, and practical problem-solving.
 
