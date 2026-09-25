@@ -112,10 +112,10 @@ I also have experience mentoring learners in programming, software development, 
 ## 🤝 Let's Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/amazing-mercy-1012133b5">
+  <a href="https://www.linkedin.com/in/amazingmercy">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://amazingmercy-dev.onrender.com/">
+  <a href="https://amazingmercy.github.io/amazingmercy-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   <a href="https://github.com/Amazingmercy">
